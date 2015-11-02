@@ -31,9 +31,6 @@ data100 <- bandwidth100 %>%
             n = n()) %>%
   arrange(desc(n))
 
-head(data100)
-#18 connection types for broadband width 100
-
 
 data1k <- bandwidth1k %>% 
   group_by(connect_type) %>%
